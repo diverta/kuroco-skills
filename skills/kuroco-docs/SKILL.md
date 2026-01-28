@@ -12,20 +12,20 @@ description: Kurocoドキュメントの検索・参照ガイド。使用キー�
 ### 1. docsフォルダの存在確認
 
 ```bash
-ls ${CLAUDE_PLUGIN_ROOT}/docs/
+ls docs/
 ```
 
 **docsフォルダが空または存在しない場合:**
 → ユーザーに「Kurocoドキュメントがまだ同期されていません。同期コマンドを実行してもよいですか？」と確認してから以下を実行：
 
 ```bash
-bash ${CLAUDE_PLUGIN_ROOT}/scripts/sync-docs.sh
+bash scripts/sync-docs.sh
 ```
 
 ### 2. 同期日時の確認（1ヶ月チェック）
 
 ```bash
-cat ${CLAUDE_PLUGIN_ROOT}/docs/.last_sync
+cat docs/.last_sync
 ```
 
 このファイルには以下の形式で同期日時が記録されています：
@@ -35,7 +35,7 @@ cat ${CLAUDE_PLUGIN_ROOT}/docs/.last_sync
 **1ヶ月（30日 = 2592000秒）以上経過しているかチェック:**
 
 ```bash
-last_sync=$(head -1 ${CLAUDE_PLUGIN_ROOT}/docs/.last_sync)
+last_sync=$(head -1 docs/.last_sync)
 now=$(date +%s)
 diff=$((now - last_sync))
 if [ $diff -gt 2592000 ]; then echo "1ヶ月以上経過"; else echo "最新"; fi
@@ -47,7 +47,7 @@ if [ $diff -gt 2592000 ]; then echo "1ヶ月以上経過"; else echo "最新"; f
 ## ドキュメントの場所
 
 ```
-${CLAUDE_PLUGIN_ROOT}/docs/
+docs/
 ```
 
 ## ディレクトリ構造
@@ -68,7 +68,7 @@ ${CLAUDE_PLUGIN_ROOT}/docs/
 ### 方法1: INDEX.mdを最初に確認（推奨）
 
 ```bash
-cat ${CLAUDE_PLUGIN_ROOT}/docs/INDEX.md
+cat docs/INDEX.md
 ```
 
 INDEX.mdには以下が含まれています：
@@ -167,7 +167,7 @@ Glob: pattern="*.md" path="docs/tutorials/"
 
 ```bash
 # 最新ドキュメントを同期
-bash ${CLAUDE_PLUGIN_ROOT}/scripts/sync-docs.sh
+bash scripts/sync-docs.sh
 ```
 
 同期すると `docs/INDEX.md` も自動更新されます。

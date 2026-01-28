@@ -7,7 +7,7 @@ description: Kurocoコンテンツ管理（CRUD操作）のベストプラクテ
 
 Kuroco HeadlessCMSでのコンテンツ管理（作成・取得・更新・削除）に関するベストプラクティス。
 
-**ドキュメント参照**: 詳細は `${CLAUDE_PLUGIN_ROOT}/docs/` を参照。同期が必要な場合は `/kuroco-docs` スキルを使用。
+**ドキュメント参照**: `/kuroco-docs` スキルを使用してKuroco公式ドキュメントを検索・参照できます。
 
 ## 目次
 

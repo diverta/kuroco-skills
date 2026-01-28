@@ -7,7 +7,7 @@ description: Kuroco API設計・実装のベストプラクティス。使用キ
 
 Kuroco HeadlessCMSのAPI設計・実装に関するベストプラクティスを提供します。
 
-**ドキュメント参照**: 詳細は `${CLAUDE_PLUGIN_ROOT}/docs/` を参照。同期が必要な場合は `/kuroco-docs` スキルを使用。
+**ドキュメント参照**: `/kuroco-docs` スキルを使用してKuroco公式ドキュメントを検索・参照できます。
 
 ## エンドポイント設計
 
