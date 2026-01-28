@@ -7,7 +7,7 @@ description: Kurocoとフロントエンドフレームワークの統合パタ�
 
 Kuroco HeadlessCMSとNuxt.js/Next.jsなどのフロントエンドフレームワークの統合パターン。
 
-**ドキュメント参照**: 詳細は `${CLAUDE_PLUGIN_ROOT}/docs/` を参照。同期が必要な場合は `/kuroco-docs` スキルを使用。
+**ドキュメント参照**: `/kuroco-docs` スキルを使用してKuroco公式ドキュメントを検索・参照できます。
 
 ## 目次
 
