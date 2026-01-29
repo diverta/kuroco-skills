@@ -6,7 +6,18 @@
 set -e
 
 ZIP_URL="https://rcms.g.kuroco-img.app/files/user/skills/current.zip"
-PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+
+# PLUGIN_DIR can be passed as argument or environment variable
+# This allows the script to work when downloaded and executed remotely
+if [ -n "$1" ]; then
+  PLUGIN_DIR="$1"
+elif [ -n "$KUROCO_PLUGIN_DIR" ]; then
+  PLUGIN_DIR="$KUROCO_PLUGIN_DIR"
+else
+  # Default: derive from script location (for local execution)
+  PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+fi
+
 DOCS_DIR="$PLUGIN_DIR/docs"
 TEMP_DIR=$(mktemp -d)
 MAX_RETRIES=3
