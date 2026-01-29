@@ -12,20 +12,20 @@ description: Kurocoドキュメントの検索・参照ガイド。使用キー�
 ### 1. docsフォルダの存在確認
 
 ```bash
-ls docs/
+ls ${CLAUDE_PLUGIN_ROOT}/docs/
 ```
 
 **docsフォルダが空または存在しない場合:**
 → ユーザーに「Kurocoドキュメントがまだ同期されていません。同期コマンドを実行してもよいですか？」と確認してから以下を実行：
 
 ```bash
-bash scripts/sync-docs.sh
+curl -fsSL https://raw.githubusercontent.com/diverta/kuroco-skills/main/skills/kuroco-docs/scripts/sync-docs.sh | bash -s -- "${CLAUDE_PLUGIN_ROOT}"
 ```
 
 ### 2. 同期日時の確認（1ヶ月チェック）
 
 ```bash
-cat docs/.last_sync
+cat ${CLAUDE_PLUGIN_ROOT}/docs/.last_sync
 ```
 
 このファイルには以下の形式で同期日時が記録されています：
@@ -35,7 +35,7 @@ cat docs/.last_sync
 **1ヶ月（30日 = 2592000秒）以上経過しているかチェック:**
 
 ```bash
-last_sync=$(head -1 docs/.last_sync)
+last_sync=$(head -1 ${CLAUDE_PLUGIN_ROOT}/docs/.last_sync)
 now=$(date +%s)
 diff=$((now - last_sync))
 if [ $diff -gt 2592000 ]; then echo "1ヶ月以上経過"; else echo "最新"; fi
@@ -47,7 +47,7 @@ if [ $diff -gt 2592000 ]; then echo "1ヶ月以上経過"; else echo "最新"; f
 ## ドキュメントの場所
 
 ```
-docs/
+${CLAUDE_PLUGIN_ROOT}/docs/
 ```
 
 ## ディレクトリ構造
@@ -68,7 +68,7 @@ docs/
 ### 方法1: INDEX.mdを最初に確認（推奨）
 
 ```bash
-cat docs/INDEX.md
+cat ${CLAUDE_PLUGIN_ROOT}/docs/INDEX.md
 ```
 
 INDEX.mdには以下が含まれています：
@@ -82,26 +82,26 @@ Claude CodeのGrepツールを使用してください（Bashのgrepより高速
 
 ```
 # キーワードで検索（ファイルパスのみ）
-Grep: pattern="エンドポイント" path="docs/"
+Grep: pattern="エンドポイント" path="${CLAUDE_PLUGIN_ROOT}/docs/"
 
 # 内容も確認したい場合
-Grep: pattern="エンドポイント" path="docs/" output_mode="content"
+Grep: pattern="エンドポイント" path="${CLAUDE_PLUGIN_ROOT}/docs/" output_mode="content"
 
 # 特定ディレクトリ内を検索
-Grep: pattern="ログイン" path="docs/tutorials/"
+Grep: pattern="ログイン" path="${CLAUDE_PLUGIN_ROOT}/docs/tutorials/"
 
 # 正規表現で検索
-Grep: pattern="filter.*query" path="docs/reference/"
+Grep: pattern="filter.*query" path="${CLAUDE_PLUGIN_ROOT}/docs/reference/"
 ```
 
 ### 方法3: Globツールでファイル検索
 
 ```
 # 全マークダウンファイル一覧
-Glob: pattern="**/*.md" path="docs/"
+Glob: pattern="**/*.md" path="${CLAUDE_PLUGIN_ROOT}/docs/"
 
 # tutorialsのファイル一覧
-Glob: pattern="*.md" path="docs/tutorials/"
+Glob: pattern="*.md" path="${CLAUDE_PLUGIN_ROOT}/docs/tutorials/"
 ```
 
 ## 目的別クイックリファレンス
@@ -167,7 +167,7 @@ Glob: pattern="*.md" path="docs/tutorials/"
 
 ```bash
 # 最新ドキュメントを同期
-bash scripts/sync-docs.sh
+curl -fsSL https://raw.githubusercontent.com/diverta/kuroco-skills/main/skills/kuroco-docs/scripts/sync-docs.sh | bash -s -- "${CLAUDE_PLUGIN_ROOT}"
 ```
 
 同期すると `docs/INDEX.md` も自動更新されます。
