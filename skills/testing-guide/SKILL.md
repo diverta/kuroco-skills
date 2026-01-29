@@ -55,6 +55,13 @@ Always follow **Arrange-Act-Assert**:
 - **Use BDD style:** Write tests using `$this->describe()` and `$this->it()` syntax
 - **Be consistent:** Follow the patterns in existing tests
 
+## BDD Assertions: Use `codeception/verify` as the API reference
+
+When writing BDD-style expectations (e.g. `verify(...)`, `expect(...)`, and chained matchers), **avoid guessing matcher method names**. Instead, treat the upstream `codeception/verify` expectation classes as the source of truth for available methods and behavior:
+
+- `Kuroco-opendev/nfs/lib/vendor/codeception/verify/src/Codeception/Verify/Expectations/ExpectMixed.php`
+- `Kuroco-opendev/nfs/lib/vendor/codeception/verify/src/Codeception/Verify/Expectations/ExpectAny.php`
+
 ## Example Test Structure
 ```php
 public function testSomethingWorks(): void
