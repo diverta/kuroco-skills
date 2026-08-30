@@ -1,0 +1,954 @@
+[
+ {
+  "id": "a01",
+  "prompt": "KurocoのAPIエンドポイントを新しく設計したい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a02",
+  "prompt": "トークン認証でKurocoのAPIを呼び出す方法を教えて",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a03",
+  "prompt": "KurocoでCookie認証とトークン認証のどちらを使うべき？",
+  "expect": [
+   "api-content",
+   "auth-design"
+  ]
+ },
+ {
+  "id": "a04",
+  "prompt": "Kurocoの静的アクセストークンの使い方を教えて",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a05",
+  "prompt": "KurocoのAPIでCORSエラーが出る",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a06",
+  "prompt": "Kurocoで429エラーが返ってくる原因は？",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a07",
+  "prompt": "KurocoのAPIレスポンスをキャッシュしたい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a08",
+  "prompt": "KurocoでTopicsの一覧をフィルターで絞り込みたい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a09",
+  "prompt": "Kurocoのfilterクエリでカテゴリ絞り込みする書き方は？",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a10",
+  "prompt": "KurocoのAPIでコンテンツを作成するリクエスト例を見せて",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a11",
+  "prompt": "Kurocoのbulk_upsertで記事を一括更新したい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a12",
+  "prompt": "Kuroco APIのページネーションの実装方法は？",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a13",
+  "prompt": "Kurocoの拡張項目ext_colの値をAPIで取得したい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a14",
+  "prompt": "Kurocoで予約投稿をAPIで設定するには？",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a15",
+  "prompt": "Kurocoで多言語コンテンツの公開状態を一括で取得したい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a16",
+  "prompt": "KurocoのAPIでファイルをアップロードしたい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a17",
+  "prompt": "KurocoにCSVで記事を一括インポートしたい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a18",
+  "prompt": "Kurocoで401エラーが出てログインできない",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a19",
+  "prompt": "KurocoのECポイントをAPIから付与したい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "a20",
+  "prompt": "Kurocoでお気に入りされた順に記事を並べたい",
+  "expect": [
+   "api-content"
+  ]
+ },
+ {
+  "id": "b01",
+  "prompt": "Kurocoでブログサイトを丸ごと作りたい",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b02",
+  "prompt": "Kurocoで会員制のレシピアプリをゼロから構築して",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b03",
+  "prompt": "Kurocoを使ってWebアプリを最初から作ってほしい",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b04",
+  "prompt": "Kurocoでポートフォリオサイトを作りたい。まず動く画面を見せて",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b05",
+  "prompt": "Kurocoでお気に入り機能付きのイベントアプリを新規で作成して",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b06",
+  "prompt": "Kurocoでコーポレートサイトを丸ごと構築する手順で進めて",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b07",
+  "prompt": "Kurocoでアプリのプロトタイプをモックデータで先に作って",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b08",
+  "prompt": "Kurocoでメディアサイトを新しく立ち上げたい。設計から公開までお願い",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "b09",
+  "prompt": "Kurocoで社内の購買管理システムを作ってください。申請から承認・発注まで一元管理したい",
+  "expect": [
+   "app-builder"
+  ]
+ },
+ {
+  "id": "s01",
+  "prompt": "KurocoのSmartyでforeachループを書く方法",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s02",
+  "prompt": "Smartyのdate_formatの使い方",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s03",
+  "prompt": "Kurocoのapi_internalプラグインの使い方を教えて",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s04",
+  "prompt": "KurocoのSmartyで変数に値を代入するには？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s05",
+  "prompt": "Kurocoでバッチ処理を15分毎に実行したい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s06",
+  "prompt": "Kurocoの定期実行でCSVを自動生成したい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s07",
+  "prompt": "Kurocoでコンテンツ更新時にWebhookを飛ばしたい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s08",
+  "prompt": "Kurocoでフォーム送信後にSlack通知を送りたい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s09",
+  "prompt": "Kurocoでコンテンツ公開時にトリガーで処理を実行したい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s10",
+  "prompt": "KurocoからSendGridでメールを送るSmartyプラグインは？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s11",
+  "prompt": "KurocoからChatworkに通知を送りたい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s12",
+  "prompt": "Kurocoのコンテンツ更新でGitHub Actionsを起動したい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s13",
+  "prompt": "sendmailプラグインでメールテンプレートを使いたい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s14",
+  "prompt": "Kurocoのai_completionでAIに文章を生成させたい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s15",
+  "prompt": "KurocoのSmartyでファイルを書き出すには？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s16",
+  "prompt": "Kurocoのトリガーで使える変数の一覧は？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s17",
+  "prompt": "Kurocoでメール送信をトリガーにバッチを起動できる？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "s18",
+  "prompt": "Smartyのescape修飾子はいつ使う？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "f01",
+  "prompt": "Nuxt3でKurocoの記事一覧を表示したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f02",
+  "prompt": "Next.jsのApp RouterでKurocoと連携したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f03",
+  "prompt": "KurocoをヘッドレスCMSとしてSSGサイトを作りたい",
+  "expect": [
+   "frontend-integration",
+   "app-builder"
+  ]
+ },
+ {
+  "id": "f04",
+  "prompt": "useAsyncDataでKurocoのAPIを呼ぶには？",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f05",
+  "prompt": "NuxtでKurocoのログイン状態を管理したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f06",
+  "prompt": "Kurocoの会員登録フォームをNuxtで実装したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f07",
+  "prompt": "KurocoFrontにデプロイする方法",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f08",
+  "prompt": "Kurocoのサイトを自動でビルド・デプロイしたい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f09",
+  "prompt": "KurocoFrontのGitHub連携でデプロイを自動化したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f10",
+  "prompt": "v-htmlでKurocoのコンテンツを表示するときのXSS対策は？",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f11",
+  "prompt": "Kurocoでサードパーティクッキーがブロックされてログインできない",
+  "expect": [
+   "frontend-integration",
+   "api-content"
+  ]
+ },
+ {
+  "id": "f12",
+  "prompt": "generateStaticParamsでKurocoの動的ルートを生成したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f13",
+  "prompt": "Kurocoのプレビューサイトにデプロイしたい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f14",
+  "prompt": "VueでKurocoのプロフィール情報を表示したい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f15",
+  "prompt": "KurocoとReactでSPAを作りたい",
+  "expect": [
+   "frontend-integration",
+   "app-builder"
+  ]
+ },
+ {
+  "id": "f16",
+  "prompt": "Kurocoで作ったフロントはどこに公開すればいい？",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f17",
+  "prompt": "KurocoのフロントをVercelに公開しても大丈夫？",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "f18",
+  "prompt": "KurocoのサイトをNext.jsのSSRで動かしたい",
+  "expect": [
+   "frontend-integration"
+  ]
+ },
+ {
+  "id": "d01",
+  "prompt": "Kurocoの公式ドキュメントで会員限定サイトの作り方を調べて",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d02",
+  "prompt": "Kurocoの料金プランについて教えて",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d03",
+  "prompt": "Kurocoの用語集はある？",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d04",
+  "prompt": "最新のKurocoリリースノートを確認したい",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d05",
+  "prompt": "Kurocoのロードマップを知りたい",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d06",
+  "prompt": "Kurocoで二段階認証を設定する方法をドキュメントで探して",
+  "expect": [
+   "kuroco-docs",
+   "api-content"
+  ]
+ },
+ {
+  "id": "d07",
+  "prompt": "KurocoとStripe決済の連携方法をドキュメントで調べて",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d08",
+  "prompt": "KurocoはFirebaseと連携できる？",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d09",
+  "prompt": "Kurocoのメンテナンス情報はどこで見られる？",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "d10",
+  "prompt": "Kurocoの制限事項を教えて",
+  "expect": [
+   "kuroco-docs"
+  ]
+ },
+ {
+  "id": "m01",
+  "prompt": "Claude DesktopからKurocoを操作したい",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m02",
+  "prompt": "KurocoのAdmin MCPのOAuth認証を設定したい",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m03",
+  "prompt": "KurocoのCIMDって何？設定方法は？",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m04",
+  "prompt": "Kurocoのmcp:adminスコープの意味は？",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m05",
+  "prompt": "claude mcp addでKurocoを追加するには？",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m06",
+  "prompt": "KurocoのMCPツールが見えないんだけど",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m07",
+  "prompt": "KurocoのAdmin MCPの権限を読み取り専用にしたい",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m08",
+  "prompt": "KurocoにMCPでファイルをアップロードしたい",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m09",
+  "prompt": "KurocoのIssuer URLはどこで確認できる？",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m10",
+  "prompt": "AIエージェントからKurocoの管理画面を操作する方法",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m11",
+  "prompt": "KurocoのCSSの一部の行だけを書き換えたい",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "m12",
+  "prompt": "Kurocoで全文を送らずにテンプレートを部分更新できる？",
+  "expect": [
+   "admin-mcp"
+  ]
+ },
+ {
+  "id": "t01",
+  "prompt": "Kurocoの新しいコンテンツ定義をMCPで作成したい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t02",
+  "prompt": "KurocoのTopicsGroupをMCPツールで追加して",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t03",
+  "prompt": "Kurocoのコンテンツ構造にWYSIWYGフィールドを追加したい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t04",
+  "prompt": "Kurocoで繰り返し可能なフィールドグループを定義するには？",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t05",
+  "prompt": "Kurocoのコンテンツ定義でセレクトボックスの選択肢を定義する方法",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t06",
+  "prompt": "Kurocoでリレーション項目を持つコンテンツ定義を作って",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t07",
+  "prompt": "Kurocoのext_typeにはどんな種類がある？",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t08",
+  "prompt": "Kurocoでブロックエディタのフィールドを追加したい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "t09",
+  "prompt": "topics_group-createでコンテンツ定義を作るときの入力スキーマを確認したい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "p01",
+  "prompt": "Kurocoの月額利用料が急に増えた。原因を調べたい",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p02",
+  "prompt": "KurocoのAPIリクエスト課金が高いので内訳を分析して",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p03",
+  "prompt": "Kurocoのキャッシュヒット率が低いエンドポイントを洗い出したい",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p04",
+  "prompt": "Kuroco の API解析でリクエストが急増したエンドポイントを特定して",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p05",
+  "prompt": "KurocoのAPIでキャッシュMISSが多い原因を調査したい",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p06",
+  "prompt": "Kurocoの利用料を下げるためにキャッシュ設定をレビューしてほしい",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p07",
+  "prompt": "KurocoのAPIパフォーマンスとコストのレビューをして",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "p08",
+  "prompt": "KurocoのCDN転送量が増えている。どこが原因か調べて",
+  "expect": [
+   "api-performance-review"
+  ]
+ },
+ {
+  "id": "n01",
+  "prompt": "ReactのuseEffectの依存配列について教えて",
+  "expect": []
+ },
+ {
+  "id": "n02",
+  "prompt": "PostgreSQLでインデックスを張るべきカラムは？",
+  "expect": []
+ },
+ {
+  "id": "n03",
+  "prompt": "gitのrebaseとmergeの違いは？",
+  "expect": []
+ },
+ {
+  "id": "n04",
+  "prompt": "TypeScriptのジェネリクスの書き方",
+  "expect": []
+ },
+ {
+  "id": "n05",
+  "prompt": "Dockerfileのマルチステージビルドとは？",
+  "expect": []
+ },
+ {
+  "id": "n06",
+  "prompt": "明日の東京の天気は？",
+  "expect": []
+ },
+ {
+  "id": "n07",
+  "prompt": "おすすめのメカニカルキーボードは？",
+  "expect": []
+ },
+ {
+  "id": "n08",
+  "prompt": "CSSでflexboxの中央揃えをするには？",
+  "expect": []
+ },
+ {
+  "id": "n09",
+  "prompt": "Pythonでリストを逆順にする方法",
+  "expect": []
+ },
+ {
+  "id": "n10",
+  "prompt": "AWS S3バケットを公開設定にするリスクは？",
+  "expect": []
+ },
+ {
+  "id": "c01",
+  "prompt": "Kurocoでコンテンツ定義を1つにまとめるか分けるか迷っている",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "c02",
+  "prompt": "Kurocoで都道府県マスタはCSVテーブルとリレーションのどちらで持つべき？",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "c03",
+  "prompt": "カテゴリとタグのどちらで記事を分類すべきか決めたい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "c04",
+  "prompt": "コンテンツ定義の項目数が多くなりそうなのでJSON項目にまとめるべきか知りたい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "c05",
+  "prompt": "ext_slugの命名方針を決めたい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "c06",
+  "prompt": "Kurocoのコンテンツのフィールド設計を相談したい",
+  "expect": [
+   "content-structure"
+  ]
+ },
+ {
+  "id": "u01",
+  "prompt": "Kurocoの会員グループをどう分ければいいか設計したい",
+  "expect": [
+   "auth-design"
+  ]
+ },
+ {
+  "id": "u02",
+  "prompt": "会員登録フローを即時登録と仮登録のどちらにするか迷っている",
+  "expect": [
+   "auth-design"
+  ]
+ },
+ {
+  "id": "u03",
+  "prompt": "Kurocoで自分の投稿だけ見せる設計にしたい",
+  "expect": [
+   "auth-design"
+  ]
+ },
+ {
+  "id": "u04",
+  "prompt": "Kurocoサイトのパスワードポリシーをどう決めるべきか",
+  "expect": [
+   "auth-design",
+   "security-audit"
+  ]
+ },
+ {
+  "id": "u05",
+  "prompt": "KurocoサイトにあとからSSOを追加できるように設計しておきたい",
+  "expect": [
+   "auth-design"
+  ]
+ },
+ {
+  "id": "u06",
+  "prompt": "サポート担当が会員になり代わる代理ログインは必要かどうか検討したい",
+  "expect": [
+   "auth-design"
+  ]
+ },
+ {
+  "id": "e01",
+  "prompt": "KurocoとLINEを連携したいが、どの方式で繋ぐのがいいか",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "e02",
+  "prompt": "外部APIのキーをフロントに置きたくない。Kurocoでどう隠すべき？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "e03",
+  "prompt": "Instagramの投稿をKurocoに定期的に取り込みたい。設計を相談したい",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "e04",
+  "prompt": "外部システム連携でプロキシと直接呼び出しのどちらにすべきか",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "e05",
+  "prompt": "外部連携のアクセストークンが60日で失効する場合、どう設計すればいい？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "e06",
+  "prompt": "Kurocoのスパイダーで外部APIを定期ポーリングしてもいい？",
+  "expect": [
+   "server-processing"
+  ]
+ },
+ {
+  "id": "g01",
+  "prompt": "Kurocoサイトのセキュリティ設定を監査して",
+  "expect": [
+   "security-audit"
+  ]
+ },
+ {
+  "id": "g02",
+  "prompt": "KurocoのCORSやIP制限の設定が安全か確認してほしい",
+  "expect": [
+   "security-audit"
+  ]
+ },
+ {
+  "id": "g03",
+  "prompt": "Kurocoのスーパーユーザー一覧を棚卸ししたい",
+  "expect": [
+   "security-audit"
+  ]
+ },
+ {
+  "id": "g04",
+  "prompt": "静的アクセストークンの棚卸しをしたい",
+  "expect": [
+   "security-audit"
+  ]
+ },
+ {
+  "id": "g05",
+  "prompt": "Kurocoの設定がセキュアかセキュリティチェックして",
+  "expect": [
+   "security-audit"
+  ]
+ },
+ {
+  "id": "g06",
+  "prompt": "管理画面の2要素認証がちゃんと設定されているか確認したい",
+  "expect": [
+   "security-audit"
+  ]
+ }
+]

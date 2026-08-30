@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco App Builder"
+  short_description: "要件整理からKurocoアプリ公開までを設計・構築"
+  default_prompt: "Use $kuroco-app-builder to design and build this Kuroco application end to end."

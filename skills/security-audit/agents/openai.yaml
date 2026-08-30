@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Security Audit"
+  short_description: "Kuroco設定を読み取り専用で安全にセキュリティ監査"
+  default_prompt: "Use $kuroco-security-audit to perform a read-only security audit of this Kuroco site."

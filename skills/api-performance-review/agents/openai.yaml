@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco API Performance Review"
+  short_description: "Kuroco APIの性能・キャッシュ・利用料をレビュー"
+  default_prompt: "Use $kuroco-api-performance-review to review this Kuroco API's performance and cost."

@@ -1,0 +1,12 @@
+.DS_Store
+*.zip
+__pycache__/
+
+# 個人のローカル設定（共有しない）
+.claude/settings.local.json
+
+# Claude Code のサブエージェント用 worktree（自動生成）
+.claude/worktrees/
+
+# zip ビルド成果物（build-skill-zips.sh の出力先はリポジトリ直下の dist/）
+dist/

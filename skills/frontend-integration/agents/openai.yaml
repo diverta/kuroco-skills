@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Frontend Integration"
+  short_description: "Kurocoフロント実装と安全な公開先の選択を支援"
+  default_prompt: "Use $kuroco-frontend-integration to choose and implement the frontend for this Kuroco project."

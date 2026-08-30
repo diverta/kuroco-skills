@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Content Structure"
+  short_description: "Kurocoのコンテンツ定義を設計し、承認後にAdmin MCPで作成"
+  default_prompt: "Use $kuroco-content-structure to design and create the Kuroco content structure."

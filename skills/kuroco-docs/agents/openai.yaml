@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Documentation"
+  short_description: "同梱されたKuroco公式ドキュメントを正確に横断検索"
+  default_prompt: "Use $kuroco-docs to find the relevant official Kuroco documentation."

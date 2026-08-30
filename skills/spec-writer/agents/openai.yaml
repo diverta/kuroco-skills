@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Spec Writer"
+  short_description: "Kuroco設定を読み取り専用で収集しMarkdown+Mermaidの仕様書を生成"
+  default_prompt: "Use $kuroco-spec-writer to generate a specification document for this Kuroco site."

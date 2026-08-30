@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Authentication Design"
+  short_description: "Kurocoの会員認証・権限・登録フローを安全に設計"
+  default_prompt: "Use $kuroco-auth-design to design authentication and authorization for this Kuroco application."

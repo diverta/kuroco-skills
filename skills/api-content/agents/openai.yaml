@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco API and Content"
+  short_description: "Kuroco APIの設計・認証・コンテンツ操作を支援"
+  default_prompt: "Use $kuroco-api-content to design this Kuroco API and content workflow."

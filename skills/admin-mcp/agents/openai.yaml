@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuroco Admin MCP"
+  short_description: "Kuroco Admin MCPの接続・権限・操作を案内"
+  default_prompt: "Use $kuroco-admin-mcp to connect to and safely operate Kuroco Admin MCP."

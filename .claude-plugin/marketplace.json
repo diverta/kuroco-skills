@@ -1,0 +1,47 @@
+{
+  "name": "diverta-kuroco-skills",
+  "owner": {
+    "name": "Diverta inc."
+  },
+  "metadata": {
+    "description": "Kuroco Headless CMS integration patterns, best practices, and development guidelines / Kuroco HeadlessCMSの統合パターン、ベストプラクティス、開発ガイドライン",
+    "version": "3.0.0"
+  },
+  "plugins": [
+    {
+      "name": "kuroco-skills",
+      "source": {
+        "source": "github",
+        "repo": "diverta/kuroco-skills"
+      },
+      "description": "Kuroco Headless CMS integration patterns, best practices, and development guidelines / Kuroco HeadlessCMSの統合パターン、ベストプラクティス、開発ガイドライン",
+      "version": "3.0.0",
+      "author": {
+        "name": "Diverta inc."
+      },
+      "keywords": [
+        "kuroco",
+        "headless-cms",
+        "api",
+        "nuxt",
+        "next",
+        "frontend",
+        "topics",
+        "member",
+        "authentication",
+        "batch",
+        "webhook",
+        "smarty",
+        "cms",
+        "rcms",
+        "diverta",
+        "performance",
+        "cost-optimization",
+        "cache",
+        "api-analytics",
+        "usage"
+      ],
+      "license": "MIT"
+    }
+  ]
+}
